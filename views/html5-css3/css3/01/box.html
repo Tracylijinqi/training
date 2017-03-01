@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        .content-box{
+             width:20em;
+             height:20em;
+             background-color: aqua;
+             padding:5em;
+             margin:2em;
+             border:.5em solid #53c1ef;
+             box-sizing: content-box;
+         }
+        .border-box{
+            width:20em;
+            height:20em;
+            background-color:white;
+            padding:5em;
+            margin:2em;
+            border:.5em solid #53c1ef;
+            box-sizing: border-box;
+            margin:0 auto;
+        }
+        .circle{
+            width:6em;
+            height:6em;
+            background-color: red;
+            padding:2em;
+            margin:2em;
+
+            box-sizing: border-box;
+            position: absolute;
+            left: 13em;
+            top: 12em;
+            border-radius:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="content-box">
+
+    <div class="border-box"></div>
+    <div class="circle"></div>
+</div>
+</body>
+</html>
