@@ -1,0 +1,184 @@
+.head{
+    margin:0% 3%;
+}
+.head-1{
+    float:left;
+}
+.head-1-1{
+    float:left;
+    margin:0px 50px 0px 150px;
+}
+.head-1-2{
+    float:left;
+    margin-left:50px;
+}
+.head-2{
+    float:right;
+}
+.button1{
+    border:1px solid red;
+    background-color: white;
+    border-radius:5px;
+    width:90px;
+    height:30px;
+
+}
+.head-2-1{
+    float:right;
+    background-color: red;
+    width:110px;
+    text-align: center;
+    border-radius:5px;
+    height:30px;
+    line-height:30px;
+}
+.head-2-2{
+    float:right;
+    margin:0px 50px;
+}
+a{
+    text-decoration:none;
+}
+.head-2-3{
+    float:right;
+    margin-right:50px;
+}
+.pic{
+
+    margin:20px 200px;
+}
+.pic-1{
+    width:625px;
+    height:300px;
+    float:left;
+
+}
+.pic-2{
+    width:280px;
+    height:50px;
+    float:right;
+    margin-bottom:10px;
+}
+
+.pic-3{
+    width:280px;
+    height:140px;
+    float:right;
+
+}
+.pic-6{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 210px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-7{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 290px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-8{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 370px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-9{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 450px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-10{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 530px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-11{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 610px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-12{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left: 690px;
+    top: 380px;
+    border-radius: 7%;
+}
+.pic-13{
+    width:65px;
+    height:65px;
+    position: absolute;
+    left:770px;
+    top: 380px;
+    border:1px solid gray;
+    background-color: gainsboro;
+    line-height: 30px;
+    border-radius: 7%;
+}
+.con{
+    border:0px solid red;
+    margin:20px 200px;
+}
+.content{
+    float:left;
+    width:625px;
+}
+.content-1{
+
+    height:197px;
+}
+.content-2{
+
+    height:197px;
+}
+.content-right{
+    float:right;
+    width:280px;
+    height:329px;
+}
+.content-1-1{
+    float:left;
+}
+.content-1-1-2{
+    font-size:25px;
+    color:black;
+}
+.content-1-1-3{
+    font-size:12px;
+}
+.content-1-2{
+    float:right;
+    margin:25px 0px;
+}
+.pic-14{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+}
+.pic-15{
+    width:150px;
+    height:120px;
+}
+.content-right-1{
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+}
