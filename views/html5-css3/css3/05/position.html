@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+    <style>
+        div {
+            border: 1px solid red;
+            width: 220px;
+            height: 60px;
+            background-color: aquamarine;
+        }
+
+        .position {
+            position: fixed;
+            left: 50px;
+            top: 60px;
+            z-index:-1;
+            background-color: antiquewhite;
+        }
+        .a{
+            position:absolute;
+            left:200px;
+            top:100px;
+        }
+    </style>
+</head>
+<body>
+<div class="a">
+    <div>这是段落一，他在文档流中处于相对的位置</div>
+    <div class="position">这是段落二，他在文档流中移动了一段距离</div>
+    <div>这是段落三，他在文档流中处于相对的位置</div>
+</div>
+</body>
+</html>

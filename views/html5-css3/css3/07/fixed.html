@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed</title>
+    <style>
+        header {
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            top:-10px;
+            text-align: center;
+            font-size: 32px;
+            line-height: 100px;
+            z-index: 1;
+            background-color: antiquewhite;
+        }
+        aside {
+            position: fixed;
+            top:100px;
+            float: left;
+            width: 29%;
+            height:700px;
+            overflow-y: auto;
+            background-color: #53c1ef;
+
+        }
+
+        content {
+            position: absolute;
+            top: 100px;
+            left: 30%;
+            width: 70%;
+            overflow-y: auto;
+            height: 538px;
+        }
+
+        div {
+            height: 600px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    THML5学习
+</header>
+<aside>
+    <div><a href="#mm">jff</a></div>
+    <div><a href="#ww">jfff</a></div>
+</aside>
+<content>
+    <div id="ww">全明星前后，本就是NBA大新闻频发的时间段。赛季进程已过去三分之二，绝大部分球队都已经对自己本赛季的前景有了清晰的认知：有想要放手一搏的，因此在交易市场上大做文章；有已经着眼来年的，于是干脆放部分球员离开；再有像湖人这样的球队，在过去一周有了彻底的管理层变革，</div>
+    <div id="mm">w</div>
+</content>
+
+</body>
+</html>
