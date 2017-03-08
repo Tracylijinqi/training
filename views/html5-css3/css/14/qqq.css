@@ -1,0 +1,203 @@
+body{
+    border:1px solid red ;
+
+    margin:0 auto;
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+.nav {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    margin-right: 5px;
+}
+
+.m {
+    margin-right: 5px;
+}
+
+.n {
+    margin-right: 10px;
+}
+
+.n1 {
+    margin-right: 10px;
+}
+
+.nav-right {
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    float: left;
+}
+
+.nav-right ul li {
+    list-style: none;
+    float: left;
+}
+
+.content {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+.logo {
+    margin: 50px 0px;
+    margin-left:10%;
+
+}
+
+.pic {
+    margin-top: 50px;
+    margin-left:100px;
+}
+
+.pic-work img{
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.down-a{
+    display: flex;
+}
+.down-pic img{
+    height:60px;
+    width:60px;
+    background-size: cover;
+    margin:10px 20px;
+}
+.down-content{
+    margin:10px 2px;
+}
+
+.right-bole{
+    border:1px solid gray;
+}
+.weixin{
+    display: flex;
+}
+.logo-weixin{
+    margin:3px;
+}
+.pic-taobao img {
+    width: 100%;
+    margin:20px 0px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color:red;
+}
+
+.z{
+    width:80%;
+    margin:0 auto;
+    border:1px solid red ;
+    height:500px;
+    display: flex;
+    margin-top: -20px;
+}
+.b{
+    border:1px solid red ;
+    width:70%;
+    height:500px;
+}
+.c{
+    border:1px solid red ;
+    width:30%;
+    height:500px;
+}
+.d{
+    border:1px solid red ;
+    height:40px;
+    line-height: 40px;
+}
+.e{
+    border:1px solid red ;
+    display: flex;
+}
+.f{
+    border:1px solid red ;
+    width:50%;
+    height:460px;
+}
+.g{
+    border:1px solid red ;
+    width:50%;
+    height:460px;
+}
+@media screen and (max-width:800px){
+
+    .nav {
+        width: 90%;
+        justify-content: flex-end;
+    }
+
+    .content {
+        justify-content: center;
+    }
+
+    #hidden {
+        display: none;
+    }
+
+.c{
+    display: none;
+}
+    .f{
+        width:100%;
+        justify-content: center;
+    }
+    .b{
+        width:100%;
+    }
+    .d{
+
+        justify-content: center;
+    }
+    .e{
+        display: flex;
+        flex-direction: column;
+    }
+    .g{
+        width:100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .pic {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 800px) {
+    .m {
+        display: none;
+    }
+}

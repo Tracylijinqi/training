@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+.nav {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    margin-right: 5px;
+}
+
+.m {
+    margin-right: 5px;
+}
+
+.n {
+    margin-right: 10px;
+}
+
+.n1 {
+    margin-right: 10px;
+}
+
+.nav-right {
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    float: left;
+}
+
+.nav-right ul li {
+    list-style: none;
+    float: left;
+}
+
+.content {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+.logo {
+    margin: 40px 0px;
+    margin-left:10%;
+
+}
+
+.pic {
+    margin-top: 40px;
+    margin-left:100px;
+}
+.word{
+    width:80%;
+    margin:0 auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    height:40px;
+    line-height: 40px;
+}
+.aside {
+    border: 1px solid red;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.aside-left {
+    border: 1px solid red;
+    height: 400px;
+    width: 70%;
+    display: flex;
+
+}
+
+.aside-right {
+    width: 30%;
+    border: 1px solid red;
+    height: 400px;
+}
+
+.aside-down {
+    width: 100%;
+    height: 600px;
+}
+.down-a{
+    display: flex;
+}
+.down-pic img{
+     height:60px;
+     width:60px;
+     background-size: cover;
+     margin:10px 20px;
+ }
+.down-content{
+    margin:10px 2px;
+}
+
+.pic-work img{
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    border: 1px solid red;
+}
+.right-bole{
+    border:1px solid gray;
+}
+.weixin{
+    display: flex;
+}
+.logo-weixin{
+    margin:3px;
+}
+.pic-taobao img {
+    width: 100%;
+    margin:20px 0px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+ a{
+    text-decoration: none;
+
+}
+ a:hover{
+    color:red;
+}
+@media screen and (max-width: 960px) {
+
+    .pic {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #hidden {
+        display: none;
+    }
+
+    .nav {
+        width: 90%;
+        justify-content: flex-end;
+    }
+
+    .content {
+        justify-content: center;
+    }
+
+    .aside-right {
+        display: none;
+    }
+
+    .aside-left {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pic-work {
+        width: 100%;
+    }
+    .aside-down{
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .m {
+        display: none;
+    }
+}
