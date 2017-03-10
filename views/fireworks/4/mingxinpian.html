@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:800px;
+            height:400px;
+
+            outline:10px dashed red;
+            background-origin: border-box;
+            background:linear-gradient(#1f3f55 ,#f5595b );
+            background-size: 1200px 100px;
+
+            transform: skew(30deg) translate(200px,0);
+            box-shadow: 0px 0px 0 10px blue;
+            padding:40px;
+margin-bottom: 100px;
+            transform: translate(66px);
+            display: inline-block;
+        }
+        .box::after{
+            content:'';
+            position: absolute;
+            z-index:-1;
+        transform: skew(30deg);
+            top:0;right:0;bottom:0;left:0;
+            background: #58a;
+        }
+.a{
+    display: flex;
+position: relative;
+    width:300px;
+    height:60px;
+    border:1px solid red;
+    transform: skew(30deg) translate(50px,0);
+}
+.a::after{
+    content:'';
+    position: absolute;
+    z-index:-1;
+    transform: skew(30deg);
+    top:0;right:0;bottom:0;left:0;
+
+}
+        .b{
+            position: relative;
+            transform: skew(30deg);
+            display: inline-block;
+            width:150px;
+            height:60px;
+            border:1px solid red;
+        }
+        .b::after{
+            content:'';
+            position: absolute;
+            z-index:-1;
+            transform: skew(30deg);
+            top:0;right:0;bottom:0;left:0;
+        }
+
+        .c{
+            width:150px;
+            height:60px;
+            border:1px solid red;
+        }
+        .m{
+            width:200px;
+            height:200px;
+            overflow: hidden;
+            transform: rotate(45deg) translate(100px);
+            background-color: red;
+            display: inline-block;
+        }
+        .m img{
+            width:100%;
+            transform: rotate(-45deg) scale(1.4);
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+  afff
+</div>
+
+<div class="a">
+    <div class="b">f</div>
+    <div class="c">f</div>
+</div>
+
+
+<div class="m">
+    <img src="/training/public/img/10.jpg">
+</div>
+</body>
+</html>
