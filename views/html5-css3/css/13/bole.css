@@ -74,7 +74,7 @@ body {
     line-height: 40px;
 }
 .aside {
-    border: 1px solid red;
+    border: 0px solid red;
     width: 80%;
     height: 400px;
     display: flex;
@@ -82,7 +82,7 @@ body {
 }
 
 .aside-left {
-    border: 1px solid red;
+    border: 0px solid red;
     height: 400px;
     width: 70%;
     display: flex;
@@ -91,7 +91,7 @@ body {
 
 .aside-right {
     width: 30%;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 400px;
 }
 
@@ -185,4 +185,21 @@ body {
     .m {
         display: none;
     }
+}
+#j{
+    display: flex;
+}
+@media screen and (max-width: 800px){
+    #jj{
+        flex-direction: column;
+    }
+    .aside-down{
+        flex-direction: column;
+    }
+}
+.jjj{
+    display: flex;
+}
+#jj{
+    display: flex;
 }
